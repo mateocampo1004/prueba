@@ -1,5 +1,44 @@
-.profile-picture{
-    border: white 1px;
+.profile-picture {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    border: 2px solid white;
+   
     
+    height: 200px;
+    width: 200px;
+
+    border-radius: 100%;
+    overflow: hidden;
+    
+
+}
+
+header{
+    text-align: center;
+    background-color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+.historia{
+    background-color: white;
+}
+h3{
+    background-color: gray;
+    cursor: pointer;
+    position: relative;
+    
+}
+h3:hover{
+    background-color: red;
+}
+.similares{
+    background-color: mediumseagreen;
+    border-color: black;
+    position: relative;
+
 }
