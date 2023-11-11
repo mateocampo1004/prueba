@@ -1,9 +1,11 @@
 .titulo{
    
     background-color: gray;
+    width: 100%;
 }
 #content{
     
-    padding-top: 10px;
+  padding-top: 10px;
 background-color: darkred;
+padding-bottom: 10px;
 }
