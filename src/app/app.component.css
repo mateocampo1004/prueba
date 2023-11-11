@@ -1,48 +1,52 @@
 .profile-picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     border: 2px solid white;
-   
-    
-    height: 200px;
-    width: 200px;
-
-    border-radius: 100%;
-    overflow: hidden;
-    
-
-}
-
-header{
-    text-align: center;
-    background-color: gray;
-}
-h1{
-    display: flex;
-    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  
 
 }
+
+
 .historia{
+    
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
     background-color: white;
 }
-h3{
-    background-color: gray;
-    cursor: pointer;
-    position: relative;
-    height: auto;
-    width: 80%;
-    justify-content: center;
+h1{
     
+    text-align: center;
     
+
 }
-h3:hover{
-    background-color: red;
+ .ulti{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: gray;
+ }
+.ulti:hover{
+  background-color: red;
+  color: white;
+    cursor: pointer;
 }
 .similares{
-    background-color: mediumseagreen;
-    border-color: black;
-    position: relative;
 
+    margin: 10px;
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+
+}
+.motivos{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
 }
